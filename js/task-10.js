@@ -20,7 +20,7 @@ createBoxBtn.addEventListener('click', createbox);
 function createbox() {
   let firstBoxSize = 30;
   let countBox = Number(input.getAttribute('count'));
-  for (let i = 0; i < countBox; i++) {
+  for (let i = 0; i < countBox; i+=1) {
     firstBoxSize += 10;
     const nextBox = document.createElement('div');
     nextBox.style.background = getRandomHexColor();
