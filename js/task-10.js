@@ -11,8 +11,8 @@ const destroyBoxBtn = document.querySelector('button[data-destroy]');
 const boxes = document.querySelector('#boxes');
 input.addEventListener('input', inputChange);
 
-function inputChange(el) {
-  input.setAttribute('count', Number(el.currentTarget.value));
+function inputChange(event) {
+  input.setAttribute('count', Number(event.currentTarget.value));
 }
 
 createBoxBtn.addEventListener('click', createbox);
@@ -20,7 +20,7 @@ createBoxBtn.addEventListener('click', createbox);
 function createbox() {
   let firstBoxSize = 30;
   let countBox = Number(input.getAttribute('count'));
-  for (let i = 0; i < countBox; i+=1) {
+  for (let i = 0; i < countBox; i += 1) {
     firstBoxSize += 10;
     const nextBox = document.createElement('div');
     nextBox.style.background = getRandomHexColor();
