@@ -14,6 +14,8 @@ function onFormSubmit(event) {
 
   if (email === '' || password === '') {
     alert('Fill in all fields of the form');
+    form.reset();
+    return;
   }
 
   form.reset();

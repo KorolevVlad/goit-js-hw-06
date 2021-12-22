@@ -17,8 +17,9 @@ function inputChange(event) {
 
 createBoxBtn.addEventListener('click', createbox);
 
+let firstBoxSize = 30;
+
 function createbox() {
-  let firstBoxSize = 30;
   let countBox = Number(input.getAttribute('count'));
   for (let i = 0; i < countBox; i += 1) {
     firstBoxSize += 10;

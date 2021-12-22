@@ -1,7 +1,8 @@
 {
-    "turboConsoleLog.insertEnclosingFunction": false,
-    "turboConsoleLog.logMessagePrefix": "",
-    "turboConsoleLog.insertEnclosingClass": false,
-    "turboConsoleLog.includeFileNameAndLineNum": false,
-    "turboConsoleLog.delimiterInsideMessage": ""
+  "turboConsoleLog.insertEnclosingFunction": false,
+  "turboConsoleLog.logMessagePrefix": "",
+  "turboConsoleLog.insertEnclosingClass": false,
+  "turboConsoleLog.includeFileNameAndLineNum": false,
+  "turboConsoleLog.delimiterInsideMessage": "",
+  "liveServer.settings.port": 5501
 }
